@@ -5,7 +5,7 @@ void change(int[] array)
     int count = array.Length;
     for (int i = 0; i < count; i++)
     {
-        array[i] = 0 - array[i];
+        array[i] = - array[i];
     }
 }
 void PrintArray(int[] array)
